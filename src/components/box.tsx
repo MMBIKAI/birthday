@@ -3,6 +3,7 @@ import { messages } from "../data/message";
 import "../styles/main.scss";
 import Confetti from "react-confetti";
 
+
 export default function Box() {
   const [currentIndex, setCurrentIndex] = useState<number>(0); // track sequential index
   const [current, setCurrent] = useState<string | null>(null);
